@@ -55,7 +55,7 @@ const Portfolio = () => {
 
   return (
     <div>
-      <div className="bg-[#FFD4D0] py-14">
+      <div className="bg-[#FFD4D0] py-14" id="portfolio">
         <div className="text-center md:w-2xl mx-auto pb-20 space-y-2 px-3">
           <h2 className="font-bold text-4xl">My Portfolio</h2>
           <p>

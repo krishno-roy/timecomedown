@@ -37,7 +37,7 @@ const Serviec = () => {
   ];
 
   return (
-    <div className="container mx-auto p-6">
+    <div className="container mx-auto p-6" id="service">
       <div className="text-center md:w-2xl mx-auto pt-10 space-y-2 px-3">
         <h2 className="font-bold text-4xl">Services</h2>
         <p>

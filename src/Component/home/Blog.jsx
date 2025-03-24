@@ -35,8 +35,7 @@ const blogPosts = [
 
 const BlogSection = () => {
   return (
-    <section className="py-16 px-6 bg-white text-center">
-      {/* Section Title */}
+    <section className="py-16 px-6 bg-white text-center" id="blog">
       <h2 className="text-3xl font-bold mb-3">
         Design Insights and Inspiration
       </h2>
@@ -44,8 +43,6 @@ const BlogSection = () => {
         Discover industry insights, expert tips, and design inspiration. Stay
         updated with the latest trends in web design and user experience.
       </p>
-
-      {/* Blog Grid */}
       <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {blogPosts.map((post, index) => (
           <div
