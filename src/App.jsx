@@ -1,12 +1,10 @@
-import React from 'react'
-import { Outlet } from 'react-router';
-import Navbar from './Component/home/Navbar';
+import React from 'react';
+import CountdownApp from './Component/TimeCount';
 
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      <Outlet />
+      <CountdownApp />
     </div>
   );
 }
