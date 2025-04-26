@@ -377,7 +377,7 @@ const formatTime = (seconds) => {
           background: bgType === "color" ? bgColor : bgGradient,
           fontFamily: fontFamily,
           minHeight: "calc(100vh - 16px)",
-          padding: menuOpen ? "0 2rem" : "0",
+          padding: menuOpen ? "0 4rem" : "0",
         }}
       >
         <h1
@@ -391,7 +391,7 @@ const formatTime = (seconds) => {
 
         <div
           className={`flex gap-6 font-mono p-10 rounded-lg transition-all duration-500 ${
-            menuOpen ? "scale-90" : "scale-100"
+            menuOpen ? "scale-120" : "md:scale-120 scale-75"
           }`}
           style={{
             backgroundColor: timerBgColor,
@@ -407,7 +407,7 @@ const formatTime = (seconds) => {
         </div>
 
         {endTime && (
-          <p className="mt-6 text-lg" style={{ color: timerTextColor }}>
+          <p className="mt-6 text-lg px-12" style={{ color: timerTextColor }}>
             Ends at: {endTime.format("YYYY-MM-DD HH:mm:ss")} ({timeZone})
           </p>
         )}
