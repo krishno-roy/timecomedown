@@ -391,7 +391,7 @@ const formatTime = (seconds) => {
 
         <div
           className={`flex gap-6 font-mono p-10 rounded-lg transition-all duration-500 ${
-            menuOpen ? "scale-120" : "md:scale-120 scale-75"
+            menuOpen ? "scale-120" : "md:scale-120 scale-60"
           }`}
           style={{
             backgroundColor: timerBgColor,
