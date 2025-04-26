@@ -244,7 +244,7 @@ const formatTime = (seconds) => {
             <label>Quick Set Time</label>
             <select
               onChange={(e) => handleFixedTime(Number(e.target.value))}
-              className="w-full p-2 rounded bg-gray-800 text-white"
+              className="md:w-full w[230px] px-12 p-2 rounded bg-gray-800 text-white"
             >
               <option value="">Select</option>
               <option value={180}>3 Minutes</option>
